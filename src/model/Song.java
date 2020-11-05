@@ -6,11 +6,12 @@ public class Song {
 	private int duration;
 	private Genre genre;
 	
-	public Song (String artist, String title, String date, int duration) {
+	public Song (String artist, String title, String date, int duration, Genre genre) {
 		this.artist = artist;
 		this.title = title;
 		this.date = date; 
 		this.duration = duration;
+		this.genre = genre;
 	}
 	
 	public String getArtist() {
